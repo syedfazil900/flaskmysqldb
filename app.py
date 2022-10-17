@@ -20,7 +20,7 @@ def getTextFromDb():
 @app.route('/admin/', methods = ['POST', 'GET'])
 def admin():
     if request.method == 'GET':
-        return render_template('form.html')
+        return render_template('index.html')
      
     if request.method == 'POST':
         text = request.form['text']
