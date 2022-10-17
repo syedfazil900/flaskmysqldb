@@ -40,4 +40,4 @@ def get():
     newText = getTextFromDb()
     return newText[0]
  
-app.run(host='localhost', port=5000, debug=True)
+app.run()
